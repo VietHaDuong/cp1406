@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Poiret One', cursive;
+    font-weight: bolder;
+}
+
+body {
+    margin: 0;
+    background-color: #ffe8d6;
+}
+
+header {
+    float: left;
+    width: 75%;
+    top: 0;
+}
+
+header img {
+    width: 7%;
+    max-height: 100%;
+}
+
+header h1 {
+    position: absolute;
+    left: 100px;
+    top: 35px;
+}
+
+nav {
+    float: right;
+    padding: 3em 3.5em;
+}
+
+nav li {
+    list-style-type: none;
+    text-align: right;
+    display: inline-block;
+    border-right: 1px solid;
+    font-size: 1.25em;
+}
+
+nav li:last-child {
+    border-right: none;
+}
+
+nav li a {
+    text-decoration: none;
+    letter-spacing: 3px;
+    padding: 0.1em 0.75em;
+    color: black;
+}
+main {
+    clear: both;
+    background-color: whitesmoke;
+}
+
+main img {
+    height: 100%;
+    width: 100%;
+}
+
+#announcement {
+    text-align: center;
+    margin: 2em 0;
+    padding: 1em;
+    background: url("/images/announcement banner.jpeg");
+    background-size: 100%;
+}
+
+#announcement h2 {
+    color: red;
+    font-size: 2em;
+    padding: 1em 0;
+}
+
+.sale {
+    font-size: 1.15em;
+    color: #e85d04;
+}
+
+#welcome {
+    text-align: center;
+    padding: 3em;
+    font-size: 2.25em;
+}
+
+#welcome h2 {
+    text-decoration: underline;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(3, auto);
+    row-gap: 15px;
+    column-gap: 15px;
+}
+
+.wrapper-item {
+    padding: 2em;
+}
+
+#about, #trading, #links {
+    padding-top: 3em;
+}
+
+#about h3, #trading h3, #links h3 {
+    color: #ddb892;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+#about p {
+    line-height: 1.25em;
+}
+
+#trading p {
+    line-height: 2em;
+}
+
+#links p {
+    line-height: 2em;
+}
+
+#links p a{
+    color: black;
+}
+
+#comments {
+    padding: 1.5em;
+}
+
+
+#comments {
+    text-align: center;
+}
+
+#comments h3 {
+    margin-bottom: 1em;
+}
+
+#comments p{
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #ced4da;
+    padding: 2em 2em 10em 2em;
+    margin: 0 1.5em;
+    font-style: italic;
+    font-size: 1.05em;
+}
+
+#contact {
+    text-align: center;
+    padding: 2em;
+    line-height: 3em;
+}
+
+#contact p a{
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+}
