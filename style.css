@@ -65,7 +65,7 @@ main img {
     text-align: center;
     margin: 2em 0;
     padding: 1em;
-    background: url("/images/announcement banner.jpeg");
+    background: url("announcement banner.jpeg");
     background-size: 100%;
 }
 
